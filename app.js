@@ -78,9 +78,6 @@ function dado(){
     var casaId = parseInt(casaElemento.replace(/[^0-9\.]/g, ''), 10);
     var idJogadorAtual = jogadores.indexOf(jogadorAtual);
 
-    console.log(idJogadorAtual);
-    console.log("casa" + (casaId + valor));
-
     document.getElementById("dado").innerHTML = valor;
     jogadorAtual = jogadores[idJogadorAtual == 0 ? 1 : 0];
 
