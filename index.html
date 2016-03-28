@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo Tabuleiro</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<main>
+    <div id="containerFull">
+        <div id="container">
+            <div class="row line-1">
+                <div></div>
+            </div>
+            <div class="row line-1">
+                <div></div>
+                <div id="casa1" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                    <span class="desc"></span>
+                </div>
+                <div id="casa2" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                    <span class="desc"></span>
+                </div>
+                <div id="casa3" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div id="casa4" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div id="casa5" class="casa-valida curva">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div></div>
+            </div>
+            <div class="row line-1">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div id="casa6" class="casa-valida curva">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div></div>
+            </div>
+            <div class="row line-2">
+                <div></div>
+                <div class="casa-valida dado" id="dado" onclick="dado()">Jogar</div>
+                <div class="casa-valida" id="vezDe"></div>
+                <div></div>
+                <div></div>
+                <div id="casa7" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div id="casa8" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div id="casa9" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div id="casa10" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div id="casa11" class="casa-valida">
+                    <span class="jogador1"></span>
+                    <span class="jogador1"></span>
+                </div>
+                <div></div>
+            </div>
+            <div class="row line-1">
+                <div></div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
